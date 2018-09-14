@@ -53,9 +53,9 @@ int crypto_kem_dec(unsigned char *ss, const unsigned char *ct, const unsigned ch
 
 /*********************** Ephemeral key exchange API ***********************/
 
-#define SIDH_SECRETKEYBYTES     61// 48
-#define SIDH_PUBLICKEYBYTES     726//564
-#define SIDH_BYTES              241//188 
+#define SIDH_SECRETKEYBYTES     61
+#define SIDH_PUBLICKEYBYTES     726
+#define SIDH_BYTES              241 
 
 // SECURITY NOTE: SIDH supports ephemeral Diffie-Hellman key exchange. It is NOT secure to use it with static keys.
 // See "On the Security of Supersingular Isogeny Cryptosystems", S.D. Galbraith, C. Petit, B. Shani and Y.B. Ti, in ASIACRYPT 2016, 2016.
